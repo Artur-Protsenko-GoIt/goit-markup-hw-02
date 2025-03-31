@@ -18,6 +18,11 @@
     width: 1440px;
         height: 72px;
 }
+.body {
+    font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
 .logo-web {
     font-family: var(--second-family);
         font-weight: 700;
