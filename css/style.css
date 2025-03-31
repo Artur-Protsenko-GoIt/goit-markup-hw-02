@@ -132,3 +132,16 @@ font-family: var(--font-family);
         letter-spacing: 0.02em;
         color: var(--slate);
 }
+.footer {
+width: 1440px;
+    height: 312px;
+    background: var(--navy-blue);
+}
+.footer text {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: var(--cloud);
+}
