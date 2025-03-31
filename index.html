@@ -7,34 +7,49 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <!--Header-->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="./index.html"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
 
-        <ul>
-          <li><a href="#Studio">Studio</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
+        <ul class="nav-list">
+          <li><a class="nav-item" href="#Studio">Studio</a></li>
+          <li><a class="nav-item" href="#Portfolio">Portfolio</a></li>
+          <li><a class="nav-item" href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="nav-info" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="nav-info" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
     <!--Main-->
-    <main>
+    <main class="main">
       <!--Section1-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
       <!--Section2-->
       <section>
@@ -99,34 +114,50 @@
       </section>
       <!-- Section4 -->
       <section>
-        <ul>
+        <ul class="project-portfolio">
           <li>
-            <img src="./images/bankapp.jpg" alt="bankapp" />
+            <img
+              class="project-image"
+              src="./images/bankapp.jpg"
+              alt="bankapp"
+            />
             <h3>Banking app</h3>
             <p>app</p>
           </li>
           <li>
-            <img src="./images/phone.jpg" alt="cashless_payment" />
+            <img
+              class="project-image"
+              src="./images/phone.jpg"
+              alt="cashless_payment"
+            />
             <h3>Cashless Payment</h3>
             <p>marketing</p>
           </li>
           <li>
-            <img src="./images/laptop.jpg" alt="med_app" />
+            <img
+              class="project-image"
+              src="./images/laptop.jpg"
+              alt="med_app"
+            />
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
           <li>
-            <img src="./images/car.jpg" alt="taxi" />
+            <img class="project-image" src="./images/car.jpg" alt="taxi" />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/wallpapper.jpg" alt="illustrations" />
+            <img
+              class="project-image"
+              src="./images/wallpapper.jpg"
+              alt="illustrations"
+            />
             <h3>Screen Illustrations</h3>
             <p>Design</p>
           </li>
           <li>
-            <img src="./images/woman.jpg" alt="woman" />
+            <img class="project-image" src="./images/woman.jpg" alt="woman" />
             <h3>Online Courses</h3>
             <p>Marketing</p>
           </li>
