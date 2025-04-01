@@ -69,58 +69,78 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    background-color: #4D5AE5;
 }
 .hero-button:hover,
 .hero-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
-.features-title {
+.features-subtitle {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
 letter-spacing: 0.02em;
+line-height: 1.2
 }
 .features-text {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
-letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    line-height: 1.5
 }
 .team-hedder {
     font-weight: 700;
     font-size: 36px;
 letter-spacing: 0.02em;
     color: #2e2f42;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: capitalize
+    
+}
+.team {
+    background-color: #F4F4FD;
 }
 .team-name {
     font-weight: 500;
         font-size: 20px;
 letter-spacing: 0.02em;
         color: #2e2f42;
+        line-height: 1.2;
+}
+.team-list {
+    background-color: #FFFFFF;
 }
 .team-role {
     font-weight: 400;
         font-size: 16px;
 letter-spacing: 0.02em;
         color: #434455;
+        line-height: 1.5;
 }
 .project-header {
     font-weight: 700;
         font-size: 36px;
 letter-spacing: 0.02em;
         color: #2e2f42;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize
 }
 .project-title {
     font-weight: 500;
         font-size: 20px;
 letter-spacing: 0.02em;
         color: #2e2f42;
+        line-height: 1.2;
 }
 .project-text {
     font-weight: 400;
         font-size: 16px;
 letter-spacing: 0.02em;
         color: #434455;
+        line-height: 1.2
 }
 .footer-logo {
     font-weight: 700;
