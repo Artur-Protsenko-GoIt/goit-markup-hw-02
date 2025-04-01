@@ -143,6 +143,9 @@ letter-spacing: 0.02em;
         line-height: 1.2
 }
 .footer-logo {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    text-transform: uppercase;
     font-weight: 700;
         font-size: 18px;
 letter-spacing: 0.03em;
@@ -155,9 +158,13 @@ letter-spacing: 0.03em;
         color: #f4f4fd;
 }
 .footer-text {
-
 font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.02em;
-color: var(--cloud);
+color: #F4F4FD;
+line-height: 1.5;
+
+}
+.footer {
+    background-color: #2e2f42;
 }
