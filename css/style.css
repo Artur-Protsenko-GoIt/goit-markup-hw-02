@@ -17,8 +17,12 @@ button {
 }
 .header-logo {
     font-weight: 700;
-        font-size: 18px;
-color: #4d5ae5;
+    font-size: 18px;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
 }
 .header-logo-span {
     color: #2e2f42;
@@ -26,16 +30,15 @@ color: #4d5ae5;
 .nav-info {
     font-weight: 400;
     font-size: 16px;
-letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.nav-item {
+.nav-item:hover,.nav-item:focus {
     font-weight: 500;
     font-size: 16px;
     color: #2e2f42;
-letter-spacing: 0.02em;
-    color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -47,7 +50,6 @@ letter-spacing: 0.02em;
 .hero-button {
     font-weight: 500;
     font-size: 16px;
-    height: 56px;
     background-color: #4d5ae5;
 }
 .features-title {
@@ -114,8 +116,6 @@ letter-spacing: 0.03em;
 
 font-weight: 400;
 font-size: 16px;
-
-/* line-height: 24px; */ 
 letter-spacing: 0.02em;
 color: var(--cloud);
 }
