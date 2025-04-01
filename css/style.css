@@ -33,6 +33,15 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.nav-item-studio:hover:.nav-item-studio:focus {
+    color: #404bbf;
+}
+.nav-item-studio {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .nav-item:hover,.nav-item:focus {
     font-weight: 500;
