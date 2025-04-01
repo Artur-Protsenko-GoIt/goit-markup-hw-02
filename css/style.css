@@ -3,5 +3,133 @@ font-family: "Raleway",sans-serif; */
 
 body {
     font-family: "Roboto", sans-serif;
-    
+    background-color: #ffffff;
+    color: #434455;
+}
+ul , ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.header-logo {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16;
+        color: #4d5ae5;
+}
+.header-logo-span {
+    color: #2e2f42;
+}
+.nav-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2e2f42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    width: 169px;
+    height: 56px;
+    background-color: #4d5ae5;
+}
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-hedder {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.team-role {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.project-header {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.project-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.project-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.footer-logo {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        color: #4d5ae5;
+}
+.footer-logo-span {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        color: #f4f4fd;
+}
+.footer-text {
+
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
