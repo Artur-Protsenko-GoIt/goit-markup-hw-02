@@ -52,16 +52,27 @@ button {
 .contacts-link:focus{
     color: #404bbf;
 }
+.hero {
+    background-color: #2e2f42;
+}
 .hero-title {
     font-weight: 700;
     font-size: 56px;
 letter-spacing: 0.02em;
     color: #ffffff;
+    line-height: 1.07;
+    text-align: center;
 }
 .hero-button {
-    font-weight: 500;
+font-weight: 500;
     font-size: 16px;
-    background-color: #4d5ae5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.hero-button:hover,
+.hero-button:focus {
+    color: #404BBF;
 }
 .features-title {
     font-weight: 500;
