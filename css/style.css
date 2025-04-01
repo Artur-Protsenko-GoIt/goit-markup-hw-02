@@ -27,29 +27,31 @@ button {
 .header-logo-span {
     color: #2e2f42;
 }
-.nav-info {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.nav-item-studio:hover,.nav-item-studio:focus {
-    color: #404bbf;
-}
-.nav-item-studio {
+
+.nav-link {
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-.nav-item:hover,.nav-item:focus {
-    font-weight: 500;
-    font-size: 16px;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
 }
-
+.contacts {
+    font-style: normal;
+}
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus{
+    color: #404bbf;
+}
 .hero-title {
     font-weight: 700;
     font-size: 56px;
