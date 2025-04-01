@@ -80,14 +80,14 @@ font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
 letter-spacing: 0.02em;
-line-height: 1.2
+line-height: 1.2;
 }
 .features-text {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     letter-spacing: 0.02em;
-    line-height: 1.5
+    line-height: 1.5;
 }
 .team-hedder {
     font-weight: 700;
@@ -129,7 +129,7 @@ letter-spacing: 0.02em;
         color: #2e2f42;
         line-height: 1.11;
         text-align: center;
-        text-transform: capitalize
+        text-transform: capitalize;
 }
 .project-title {
     font-weight: 500;
