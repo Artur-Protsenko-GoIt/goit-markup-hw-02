@@ -92,11 +92,11 @@ line-height: 1.2
 .team-hedder {
     font-weight: 700;
     font-size: 36px;
-letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     color: #2e2f42;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
     
 }
 .team {
