@@ -33,7 +33,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.nav-item-studio:hover:.nav-item-studio:focus {
+.nav-item-studio:hover,.nav-item-studio:focus {
     color: #404bbf;
 }
 .nav-item-studio {
